@@ -1,0 +1,24 @@
+# PM (DD.MM.20YY)
+
+# environment
+# ...
+
+# miscellaneous
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.lnk
+*.pem
+*.log
+.grunt
+.env
+/.vscode/*
+!/.vscode/*.json
+# .github
+build
+dist
+node_modules
+vendor
+package-lock.json
+composer.lock

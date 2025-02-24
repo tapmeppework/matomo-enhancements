@@ -1,0 +1,32 @@
+{
+	"name": "Enhancements",
+	"description": "A modular and lightweight matomo plugin to easily enhance various workflows and aspects of the application while replacing multiple plugins doing it, and saving you time, effort (and money) along the way.",
+	"version": "0.1.1",
+	"theme": false,
+	"require": {
+		"matomo": ">=5.0.0-b1,<6.0.0-b1",
+		"php": ">=8.2"
+	},
+	"authors": [
+		{
+			"name": "t@pm3pp3 w0rk (Patrick Meppe)",
+			"email": "development@tapmeppe.work",
+			"homepage": "https://tapmeppe.work"
+		}
+	],
+	"support": {
+		"email": "development@tapmeppe.work",
+		"issues": "https://github.com/tapmeppework/matomo-enhancements/issues"
+	},
+	"homepage": "https://github.com/tapmeppework/matomo-enhancements",
+	"license": "GPL v3+",
+	"keywords": [
+		"tapmeppe",
+		"tapmeppework",
+		"matomo",
+		"login",
+		"password reset",
+		"tracker",
+		"user agent"
+	]
+}
