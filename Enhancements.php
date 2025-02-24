@@ -42,10 +42,10 @@ class Enhancements extends \Piwik\Plugin
 		else if($area === 'bottom'){
 			$output = '-->'; //close the comment
 
-			$string = \Piwik\Common::sanitizeInputValues((new SystemSettings())->message->getValue());
-			if (strlen($string) < 4) $output .= $string; 
+			$message = \Piwik\Common::sanitizeInputValues((new SystemSettings())->message->getValue());
+			if (strlen($message) < 4) $output .= $message; 
 			else {
-				$words = explode(' ' , $string) ;
+				$words = explode(' ', $message);
 				foreach ($words as $word) {
 					$output .= str_starts_with($word, 'https://') ?
 						"<a href=\"$word\" target=\"_blank\">$word</a> " :
@@ -54,7 +54,7 @@ class Enhancements extends \Piwik\Plugin
 				unset($words);
 				unset($word);
 			}
-			unset($string) ;
+			unset($message) ;
 		}
 	}
 }
